@@ -12,12 +12,12 @@ echo $twingo-> switchOff() ? 'true </br>' : 'false </br>';
 
 $vtt = new Bicycle('red', 1);
 
-$vtt->currentSpeed(4);
+$vtt->setCurrentSpeed(4);
 // This should return false :
 echo $vtt->switchOn() ? 'true </br>' : 'false </br>';
 
 // This should return true :
-$vtt->currentSpeed(13);
+$vtt->SetCurrentSpeed(13);
 echo $vtt->switchOn() ? 'true </br>' : 'false </br>';
 
 // This should return false :
